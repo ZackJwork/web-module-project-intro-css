@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+    font-family: 'Roboto Mono', monospace;
+    
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*General Styles*/
+
+*{
+  box-sizing: border-box;
+   max-width:100%;
+  border: 1px solid gray;
+}
+
+html{
+  font-size: 62.5%; /*10px*/
+}
+
+body{
+  
+  font-size:1.6rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  width: 75%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  letter-spacing: 3px;
+}
+
+section{
+  padding: 4% 0;
+  width:50%;
+  text-align:center;
+  margin:auto;
+}
+
+/* Styling of Elements */
+
+.container {
+  width:60%;
+  margin:0 auto;
+}
+
+#top_nav {
+    text-align: center;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+
+a[href*="Plan"]{
+    background:#FF764E;
+    color:#4f4f4f;
+    display:inline-block;
+    padding:0 3rem;
+    margin:0% 4%;
+    border-radius: 1rem;
+}
+a[href*="Learn"]{
+    background:#5ED3EB;
+    color:#4f4f4f;
+    display:inline-block;
+    padding:0 3rem;
+    margin:0% 4%;
+    border-radius: 1rem;
+}
+a[href*="Involved"]{
+    background:#FFCD69;
+    color:#4f4f4f;
+    display:inline-block;
+    padding:0 3rem;
+    margin:0% 4%;
+    border-radius: 1rem;
+}
+
+header{
+    padding:2% 0;
+}
+#box{
+    width:40%;
+    display:inline-block;
+    text-align: center;
+}
+#headerbox{
+    width:55%;
+    display:inline-block;
+    text-align: center;
+}
+
+#header_img {
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+
+}
+
+h1 {
+    font-size: 3rem;
+    display:inline-block;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+#Learn {
+    width: 90%;
+    margin:auto;
+    padding:0;
+    background: #DDB9A3;
+}
+
+#Learn p {
+    width: 100%;
+}
+
+.icon {
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+}
+
+span {
+    font-weight: bold;
+  }
+
+#footer_img {
+    background-size:cover;
+    height: 20rem;
+}
+footer nav{
+    text-align: center;
+    padding: 3rem;
+    background: #F9E7DC;
+}
+footer nav a[href*="Plan"]{
+    text-align: center;
+    padding:0rem 3rem;
+    margin:0% 4%;
+    border-radius: 1rem;
+}
+footer nav a[href*="Learn"]{
+    padding:0rem 3rem;
+    margin:0% 4%;
+    border-radius: 1rem;
+}
+
+footer nav a[href*="Involved"]{
+    padding:0rem 3rem;
+    margin:0% 3%;
+    border-radius: 1rem;
+}
+
+
+#footer_div{
+    width:61%;
+    margin:0 auto;
+}
